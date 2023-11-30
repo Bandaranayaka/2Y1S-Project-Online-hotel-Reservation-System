@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #007BFF;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #333;
+    /*Darkbackgroundcolor*/
+    color: #fff;
+    /*Whitetext*/
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #fff;
+    /*Addawhiteborderaroundtheform*/
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 60%;
+    padding: 10px;
+   
+  
+    margin-bottom: 10px;
+    border: 1px solid #fff;/*Whiteborderforformelements*/
+    border-radius: 5px;  background-color: #444;
+    /*Darkbackgroundcolorforformelements*/color: #fff;
+     /* White text for form elements */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.services {
+    margin: 10px 0;
+}
+
+
+
+services label {
+    display: block;
+}
+
+#total-cost {
+    background-color: #444; /* Dark background color */
+    color: #fff; /* White text */
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+   
+}

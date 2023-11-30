@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #333; /* Change to your desired background color */
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin: 30px 0; /* Increased margin for more space */
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 5px;
+}
+
+.input-box + .input-box {
+    margin-top: 40px; /* Increased margin for more space */
+}
+
+.input-box label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 0.9em;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+    top: -40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Custom styling for the select element */
+.select-box {
+    position: relative;
+    margin: 30px 0; /* Increased margin for more space */
+}
+
+.select-box select {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 5px;
+}
